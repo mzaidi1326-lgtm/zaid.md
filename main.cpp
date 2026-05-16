@@ -9,8 +9,13 @@ int main()
     cin>>b;
     sum=a+b;
     multi=a*b;
+    div=(float)a/b;
+    sub= a-b;
+
     cout<<"Sum is: "<<sum<<endl;
     cout<<"Multiplication is: "<<multi<<endl;
+    cout<<"division is: "<<div<<endl;
+    cout<<"sub: "<<sub<<endl;
     if(sum>100)
     {
      cout<<"Large sum"<<endl;
@@ -28,5 +33,16 @@ int main()
     {
      cout<<"Multiplication is odd"<<endl;
     }
+
+     if (sub<0)
+     {
+        cout<<"b is greater"<< endl;
+
+     }
+     
+     {
+          cout<<" is greater"<<endl;
+
+     }
     return 0;
 }
