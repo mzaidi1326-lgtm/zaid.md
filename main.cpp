@@ -36,13 +36,26 @@ int main()
 
      if (sub<0)
      {
-        cout<<"b is greater"<< endl;
+     cout<<"b is greater"<< endl;
 
      }
-     
+     else
      {
-          cout<<" is greater"<<endl;
+     cout<<"a is greater"<<endl;
 
      }
+     if (div>1)
+     {
+     cout<<"a is greater than b"<<endl;
+     }
+     else if(div<1)
+     {
+     cout<<"b is greater than a"<<endl;
+     }
+     else
+     {
+     cout<<"a and b are equal"<<endl;
+     }
+
     return 0;
 }
